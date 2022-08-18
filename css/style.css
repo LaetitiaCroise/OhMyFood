@@ -273,7 +273,7 @@ footer{
 width: 100%;
 background-color: rgb(92, 91, 91);
 display: flex;
-flex-direction: column;
+justify-content: space-between;
 }
 
 footer .titre_footer_OhMyFood{
@@ -299,10 +299,7 @@ cursor: pointer;
 .icone_footer{
 color: #fff;
 }
-.bloc_footer{
-display: flex;
-flex-direction: column;
-}
+
 .bloc_contenair_footer{
 padding: 20px;
 }
