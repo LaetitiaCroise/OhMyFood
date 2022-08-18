@@ -230,6 +230,7 @@ box-shadow: 6px 6px 6px #dfdfdf;
 font-size: 15px;
 width: 45%;
 margin-bottom: 35px;
+position: relative;
 
 }
 
@@ -313,8 +314,8 @@ padding: 20px;
     color: #2c9c81;
     border-radius: 3px;
     position: absolute;
-    top: 8px;
-    /* right: 40px; */
+    top: 10px;
+    right: 20px;
     cursor: pointer;
 }
 
