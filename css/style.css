@@ -563,7 +563,7 @@ box-shadow: 0 5px 5px 5px var(--grey-shadow);
     }
     .filtres .filtre_icone {
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         justify-content: space-around;
         color: rgb(128, 128, 128);
         border-radius: 20px;
@@ -624,7 +624,7 @@ box-shadow: 0 5px 5px 5px var(--grey-shadow);
     }
     .contenair_cards {
     margin: 0 auto;
-    max-width: 1330px;
+    max-width: 100%;
     width: 100%;
     padding: 0 20px;
     }
