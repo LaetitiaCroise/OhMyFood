@@ -1,0 +1,8 @@
+@media screen and (min-width: 820px){
+    body{
+        margin: 0;
+    }
+    main{
+        padding: 0;
+    }
+}
