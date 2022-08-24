@@ -1,21 +1,167 @@
  <!DOCTYPE html>
  <html lang="fr">
+
  <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
-    integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="shortcut icon" href="img/logo/ohmyfood.png" />
-  <link rel="stylesheet" href="css/reset.css" />
-  <link rel="stylesheet" href="css/palette.css" />
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>OhMyFood</title>
+   <link rel="preconnect" href="https://fonts.googleapis.com" />
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+     integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+     crossorigin="anonymous" referrerpolicy="no-referrer" />
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link rel="shortcut icon" href="../img/logo/ohmyfood.png" />
+   <link rel="stylesheet" href="../css/reset.css" />
+   <link rel="stylesheet" href="../css/palette.css" />
  </head>
+
  <body>
-    
+   <header>
+     <a class="logo" href="../index.html">
+       <i class="fa-solid fa-arrow-left"></i><img class="ohmyfood_img" src="../img/logo/ohmyfood.png" alt="img">
+     </a>
+   </header>
+   <main class="main_menu">
+     <div class="img_de_fond">
+       <img class="img_2" src="../img/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg" alt="La note enchantée" />
+     </div>
+     <article class="article_menu">
+       <!-- Titre de la carte -->
+       <h1>La palette du goût
+
+         <!-- Coeur like -->
+         <i class="fa-regular fa-heart heart-menu"></i>
+         <i class="fa-regular fa-heart heart-menu heart-full-menu"></i>
+
+       </h1>
+
+       <section class="filtres">
+         <!-- Titre de la section -->
+         <h2>ENTRÉES</h2>
+
+         <!-- Liste des entrées -->
+         <ul class="liste_menu">
+           <li>
+             <section class="texte_menu">
+               <h3>Fricassée d'escargot</h3>
+               <p class="lienlitres">Au piment d'espelette</p>
+             </section>
+             <b>25€</b>
+             <label class="check_menu">
+               <i class="fa-solid fa-circle-check"></i>
+             </label>
+           </li>
+           <li>
+             <section class="texte_menu">
+               <h3>Foie gras de canard mi-cuit</h3>
+               <p class ="lienlitres">Et ses copeaux de truffe noire</p>
+             </section>
+             <b>35€</b>
+             <label class="check_menu">
+               <i class="fa-solid fa-circle-check"></i>
+             </label>
+           </li>
+           <li>
+             <section class="texte_menu">
+               <h3>Oeuf au plat</h3>
+               <p class ="lienlitres">Assaisonné à la truffe sur lit de caviar</p>
+             </section>
+             <b>20€</b>
+             <label class="check_menu">
+               <i class="fa-solid fa-circle-check"></i>
+             </label>
+           </li>
+         </ul>
+       </section>
+
+       <section class="filtres">
+
+         <!-- Titre de la section -->
+         <h2>PLATS</h2>
+
+         <!-- Liste des plats -->
+         <ul class="seconde_liste_menu">
+           <li>
+             <section class="texte_menu">
+               <h3>Filet de boeuf aux herbes</h3>
+               <p>Accompagné de sa ribambelle de légumes</p>
+             </section>
+             <b>40€</b>
+             <label class="check_menu">
+               <i class="fa-solid fa-circle-check"></i>
+             </label>
+           </li>
+           <li>
+             <section class="texte_menu">
+               <h3>Parmentier de queue de boeuf</h3>
+               <p>À la truffe noire sur sa purée de panais</p>
+             </section>
+             <b>35€</b>
+             <label class="check_menu">
+               <i class="fa-solid fa-circle-check"></i>
+             </label>
+           </li>
+           <li>
+             <section class="texte_menu">
+               <h3>Filet de Turbot</h3>
+               <p>Aux agrumes</p>
+             </section>
+             <b>44€</b>
+             <label class="check_menu">
+               <i class="fa-solid fa-circle-check"></i>
+             </label>
+           </li>
+         </ul>
+       </section>
+
+       <div class="filtres">
+         <!-- Titre de la section -->
+         <h2>DÉSSERTS</h2>
+
+         <!-- Liste des désserts -->
+         <ul class="troisieme_liste_menu">
+           <li>
+             <section class="texte_menu">
+               <h3>Paris-Brest</h3>
+               <p>Revisité</p>
+             </section>
+             <b>18€</b>
+             <label class="check_menu">
+               <i class="fa-solid fa-circle-check"></i>
+             </label>
+           </li>
+           <li>
+             <section class="texte_menu">
+               <h3>Macaron au chocolat d'exception</h3>
+               <p>Et glace à la vanille de Madagascar</p>
+             </section>
+             <b>22€</b>
+             <label class="check_menu">
+               <i class="fa-solid fa-circle-check"></i>
+             </label>
+           </li>
+           <li>
+             <section class="texte_menu">
+               <h3>Mousse au chocolat</h3>
+               <p>Au piment d'espelette et à la truffe noire</p>
+             </section>
+             <b>23€</b>
+             <label class="check_menu">
+               <i class="fa-solid fa-circle-check"></i>
+             </label>
+           </li>
+         </ul>
+       </div>
+       </section>
+       <!-- Boutton commander -->
+       <div class="bouton_commande">
+         <a class="bouton" href="#">Commander</a>
+       </div>
+     </article>
+
+   </main>
  </body>
+
  </html>
