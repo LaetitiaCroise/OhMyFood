@@ -135,16 +135,6 @@ main {
     width: 100%;
     padding: 0 20px;
 }
-.lienfiltres {
-    text-decoration: none;
-    color: #000;
-    font-size: 17px;
-    cursor: pointer;
-    margin: 0 20px 0 0;
-    font-weight: 700;
-    font-family: 'Roboto';
-    display: inline-flex;
-    margin-left: 10%;}
 
 .filtre_icone :hover
 .filtre_icone :active {
