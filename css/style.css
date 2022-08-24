@@ -135,19 +135,6 @@ main {
     width: 100%;
     padding: 0 20px;
 }
-.filtres li {
-    padding: 0;
-    height: 75px;
-    margin: 0 5px 20px 5px;
-    border-radius: 25px;
-    font-weight: bold;
-    background: #F6F6F6;
-    box-shadow: 6px 6px 6px rgb(0 0 0 / 25%);
-    display: flex;
-    align-items: center;
-    width: 30%;
-}
-
 .lienfiltres {
     text-decoration: none;
     color: #000;
@@ -157,9 +144,8 @@ main {
     font-weight: 700;
     font-family: 'Roboto';
     display: inline-flex;
-    margin-left: 10%;
-}
-
+    margin-left: 10%;}
+    
 .filtre_icone :hover
 .filtre_icone :active {
     background-color: #f1eafb;
