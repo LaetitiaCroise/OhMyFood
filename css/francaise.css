@@ -90,7 +90,7 @@ main {
     width: 100%;
     margin: 0;
   }
-  .menus .BG_Images img {
+  .menus .BG_Images .img2 {
     width: 100%;
     min-width: 360px;
     height: 100%;
