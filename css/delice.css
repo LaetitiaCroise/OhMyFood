@@ -15,7 +15,10 @@ body {
     margin: 0;
 }
 
-
+.test {
+  display: flex;
+  flex-direction: column;
+}
 .menus {
     width: 100%;
     margin: 0;
@@ -90,7 +93,7 @@ main {
     width: 100%;
     margin: 0;
   }
-  .menus .BG_Images .img2 {
+  .menus .BG_Images img {
     width: 100%;
     min-width: 360px;
     height: 100%;
@@ -318,10 +321,13 @@ footer .titre_footer_OhMyFood {
     align-items: center;
 }
 @media screen and (min-width: 768px) {
-  .menus {
+  .menu {
+    display: flex;
     width: 100%;
-    margin: 0;
-  }
+    margin-top: -40px;
+    background-color: #F6F6F6;
+    flex-direction: column; }
+
   .img1 {
     width: 70%;
     margin-left: 35%;
@@ -359,6 +365,16 @@ footer {
     padding: 10px;
     align-items: center;
 }
+.starter, .plats, .desserts {
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 0 20px 20px 20px;
+  width: 100%;
+  min-width: 340px;
+
+}
 
 }
 
@@ -378,7 +394,7 @@ footer {
   margin-top: -40px;
   background-color: #F6F6F6;
   flex-direction: row;}
-  
+
   .btn__commande {
     width: 100%;
     margin-top: 180px;
@@ -386,5 +402,24 @@ footer {
     justify-content: center;
     align-items: center;
 }
+.test1{
+  display: flex;
+  flex-direction: row;
 
+}
+.test{
+  display: flex; 
+  flex-direction: column;
+  width: 100%;
+}
+.starter, .plats, .desserts {
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 0 20px 20px 20px;
+  width: 30%;
+  min-width: 340px;
+
+}
 }
