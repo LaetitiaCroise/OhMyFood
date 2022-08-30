@@ -18,6 +18,7 @@ body {
 .test {
   display: flex;
   flex-direction: column;
+  width: 100%;
 }
 .menus {
     width: 100%;
@@ -66,7 +67,7 @@ main {
 }
 
 .menus {
-    width: 96%;
+    width: 95%;
     margin: 0;
   }
   .menus .back {
@@ -122,7 +123,7 @@ main {
   .menu .menu__restaurant h1 {
     font-family: "Shrikhand", cursive;
     font-size: 25px;
-    margin: 20px 20px 20px 15px;
+    margin: 30px 20px 20px 15px;
   }
   .menu .menu__restaurant .menu__restaurant__like {
     position: relative;
@@ -157,13 +158,13 @@ main {
     justify-content: center;
     flex-direction: column;
     margin: 0 20px 20px 20px;
-    width: 95%;
+    width: 100%;
     min-width: 340px;
   }
   .starter .title,
   .plats .title,
   .desserts .title {
-    margin-left: 20px;
+    margin-left: 0;
   }
   .starter .title h2,
   .plats .title h2,
@@ -189,12 +190,12 @@ main {
     border-radius: 20px;
     height: 70px;
     margin-top: 20px;
-    width: 100%;
-    box-shadow: 5px 5px 10px #E7E7E7;
+    width: 95%;
+    box-shadow: 5px 5px 10px #e7e7e7;
     overflow: hidden;
     cursor: pointer;
     color: black;
-  }
+}
   .starter .menus__details .menus__details__name,
   .plats .menus__details .menus__details__name,
   .desserts .menus__details .menus__details__name{
@@ -204,7 +205,7 @@ main {
     align-items: flex-start;
     flex-direction: column;
     margin-left: 20px;
-    width: 55%;
+    width: 60%;
     
   }
   .starter .menus__details .menus__details__name h3,
@@ -232,14 +233,14 @@ main {
   .menus__details__price{
     font-weight: 700;
   }
-  .starter .menus__details-1 .menus__details__price,
-  .plats .menus__details-1 .menus__details__price,
-  .desserts .menus__details-1 .menus__details__price {
+  .starter .menus__details .menus__details__price,
+  .plats .menus__details .menus__details__price,
+  .desserts .menus__details .menus__details__price {
     margin-top: 20px;
     display: flex;
     justify-content: flex-end;
-    margin-left: 195px;
-    padding: 15px;
+    /* margin-left: 195px; */
+    padding: 0;
   }
   footer {
     width: 100%;
