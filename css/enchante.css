@@ -348,6 +348,25 @@ button {
   cursor: pointer;
   color: white;
 }
+.test {
+  display: flex;
+  flex-direction: column;
+  width: 98%;
+}
+.starter .menus__details, .plats .menus__details, .desserts .menus__details {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  border-radius: 20px;
+  height: 70px;
+  margin-top: 20px;
+  width: 100%;
+  box-shadow: 5px 5px 10px #e7e7e7;
+  overflow: hidden;
+  cursor: pointer;
+  color: black;
+}
 
 footer {
     width: 100%;
@@ -422,5 +441,19 @@ footer {
   width: 30%;
   min-width: 340px;
 
+}
+.starter .menus__details, .plats .menus__details, .desserts .menus__details {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  border-radius: 20px;
+  height: 70px;
+  margin-top: 20px;
+  width: 100%;
+  box-shadow: 5px 5px 10px #e7e7e7;
+  overflow: hidden;
+  cursor: pointer;
+  color: black;
 }
 }
