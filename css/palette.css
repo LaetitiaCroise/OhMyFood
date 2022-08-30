@@ -321,6 +321,10 @@ footer .titre_footer_OhMyFood {
     justify-content: center;
     align-items: center;
 }
+.btn__commande :hover{
+  opacity: 0.7;
+}
+
 @media screen and (min-width: 768px) {
   .menu {
     display: flex;
@@ -352,6 +356,9 @@ button {
   display: flex;
   flex-direction: column;
   width: 98%;
+}
+.btn__commande:hover{
+  opacity: 0.7;
 }
 .starter .menus__details, .plats .menus__details, .desserts .menus__details {
   display: flex;
@@ -394,6 +401,7 @@ footer {
   width: 100%;
   min-width: 340px;
 
+
 }
 
 }
@@ -417,14 +425,18 @@ footer {
 
   .btn__commande {
     width: 100%;
-    margin-top: 180px;
+    margin-top: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
+.btn__commande:hover{
+  opacity: 0.7;
+}
 .test1{
   display: flex;
   flex-direction: row;
+  width:104%;
 
 }
 .test{
