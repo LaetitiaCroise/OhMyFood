@@ -225,9 +225,6 @@ main {
   .desserts .menus__details .menus__details__name p {
     margin-top: 8px;
     font-size: 15px;
-    text-overflow: ellipsis;
-    overflow: hidden;
-    white-space: nowrap;
     width: 98%;
   }
   .menus__details__price{
