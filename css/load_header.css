@@ -8,9 +8,9 @@
 	inset: 0;
 	z-index: 1;
 	background: #fff;
-	opacity: 0.8;
-	animation: anmL-loader-circle-18 3s;
-	animation: anmR-loader-circle-18 3s;
+	opacity: 1;
+	animation: anmL-loader-circle-18 5s;
+	animation: anmR-loader-circle-18 5s;
 	animation-fill-mode: forwards;
 }
 
@@ -52,11 +52,13 @@
 	from {
 		transform: scale(1);
 		transform: rotate(0deg);
+		opacity:1;
 	}
 
 	to {
 		transform: scale(0);
 		transform: rotate(720deg);
+		opacity:0;
 	}
 }
 
@@ -64,10 +66,12 @@
 	from {
 		transform: scale(1);
 		transform: rotate(360deg);
+		opacity:1;
 	}
 
 	to {
 		transform: scale(1);
 		transform: rotate(0deg);
+		opacity:0;
 	}
 }
