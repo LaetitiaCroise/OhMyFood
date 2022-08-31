@@ -207,7 +207,9 @@ h2 {
     transform: scale(1.10);
 }
 
-.filtre_icone i:hover {
+.filtre_icone i:hover,
+.filtre_icone i:active
+{
     color: #9356DC;
 
 }
@@ -300,6 +302,21 @@ h3 {
 .coeur {
     display: flex;
     justify-content: space-between;
+    
+}
+.coeur .fa-heart{
+font-size: 25px;
+position: relative;}
+
+.coeur .fa-heart:hover{
+    position: absolute;
+    height: 0;
+    right: 0;
+    opacity: 0;
+    font-family: "Font Awesome 5 Free";
+    font-style: normal;
+    font-weight: 900;
+    background: linear-gradient(to bottom, #9356DC 5%, #FF79DA 100%);
 }
 
 .nouveau {
@@ -447,7 +464,7 @@ footer .titre_footer_OhMyFood {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
-        padding: 15px 0;
+        padding: 15px 20px;
     }
 
     .footer_contenair {
@@ -480,8 +497,14 @@ footer .titre_footer_OhMyFood {
     }
 
     .h2sépcifique {
-        margin-left: 30px;
+        margin-left: 180px;
 
+    }
+    .contenair_cards {
+        margin: 0 auto;
+        max-width: 85%;
+        width: 100%;
+        padding: 0 20px;
     }
 
     .filtre_icone :hover {
