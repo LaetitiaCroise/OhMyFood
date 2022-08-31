@@ -9,6 +9,9 @@
 	z-index: 1;
 	background: #fff;
 	opacity: 0.8;
+	animation: anmL-loader-circle-18 3s;
+	animation: anmR-loader-circle-18 3s;
+	animation-fill-mode: forwards;
 }
 
 .loader-circle-18 {
