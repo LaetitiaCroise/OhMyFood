@@ -10,6 +10,7 @@
 	background: #fff;
 	opacity: 0.8;
 }
+
 .loader-circle-18 {
 	width: 70px;
 	height: 70px;
@@ -19,6 +20,7 @@
 	display: inline-block;
 	position: relative;
 }
+
 .loader-circle-18:before,
 .loader-circle-18:after {
 	content: "";
@@ -32,34 +34,37 @@
 	border-radius: 100%;
 	animation: anmL-loader-circle-18 800ms linear infinite;
 }
+
 .loader-circle-18:after {
 	width: 30px;
 	height: 30px;
 	top: calc(50% - 15px);
 	left: calc(50% - 20px);
 	border: 0;
-	border-right: 3px solid  #99E2D0;
+	border-right: 3px solid #99E2D0;
 	animation: none;
 }
+
 @keyframes anmL-loader-circle-18 {
 	from {
 		transform: scale(1);
 		transform: rotate(0deg);
 	}
+
 	to {
 		transform: scale(0);
 		transform: rotate(720deg);
 	}
 }
+
 @keyframes anmR-loader-circle-18 {
 	from {
 		transform: scale(1);
 		transform: rotate(360deg);
 	}
+
 	to {
 		transform: scale(1);
 		transform: rotate(0deg);
 	}
 }
-
-
