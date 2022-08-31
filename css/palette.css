@@ -535,9 +535,11 @@ footer {
   animation-iteration-count: 1;
   animation-direction: normal;
   animation-fill-mode: none;
-  animation: shutter-in-right 2.2s ease 0s 1 normal none
+  animation: shutter-in-right 2.2s ease 0s 1 normal none;
+
+   } 
 }
-/* @keyframes shutter-in-right {
+ /* @keyframes shutter-in-right {
   0%{
     transform: rotateY(-100deg);
     transform-origin: right;
@@ -550,4 +552,3 @@ footer {
   }
 }  */
 
-}

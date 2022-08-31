@@ -535,7 +535,7 @@ footer {
   animation-iteration-count: 1;
   animation-direction: normal;
   animation-fill-mode: none;
-  animation: shutter-in-right 2.2s ease 0s 1 normal none
+  animation: shutter-in-right 2.2s ease 0s 1 normal none;
 }
 /* @keyframes shutter-in-right {
   0%{
