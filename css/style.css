@@ -310,15 +310,23 @@ font-size: 25px;
 position: absolute;
 right:0}
 
-.coeur .fa-heart:hover{
+.coeur .full:hover{
     height: 0;
     right: 0;
     opacity: 0;
     font-family: "Font Awesome 5 Free";
     font-style: normal;
     font-weight: 900;
-    background: linear-gradient(to bottom, #9356DC 5%, #FF79DA 100%);
+    background-image: linear-gradient(0deg, #ff79da, #9356dc);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+    transform: scale(1);
+    transition-property: transform;
+    transition-duration: 400ms;
 }
+
 
 .nouveau {
     display: flex;
