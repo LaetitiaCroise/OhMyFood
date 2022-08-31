@@ -308,37 +308,49 @@ h3 {
 .coeur .fa-heart{
 font-size: 25px;
 position: absolute;
-right:0}
+right:0;
+transform: scale(1);
+transition-property: transform;
+transition-duration: 400ms;
+}
+.full{
+    visibility: hidden;
+}
 
-.coeur .full:hover{
-    height: 0;
-    right: 0;
-    opacity: 0;
-    font-family: "Font Awesome 5 Free";
-    font-style: normal;
-    font-weight: 900;
+.full:hover,
+.full:active{
+    transform: scale(1.15);
+    opacity: 100%;
     background-image: linear-gradient(0deg, #ff79da, #9356dc);
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
-    -moz-text-fill-color: transparent;
-    transform: scale(1);
-    transition-property: transform;
-    transition-duration: 400ms;
+    -moz-text-fill-color: transparent;}
+
+.fa-heart:hover,
+.fa-heart:active{
+    opacity: 100%;
+    background: linear-gradient(0deg, #ff79da, #9356dc);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold;
 }
 
 
 .nouveau {
     display: flex;
     font-weight: 700;
-    padding: 5px 10px;
+    padding: 10px 15px;
     background-color: #99E2D0;
     color: #2c9c81;
     border-radius: 3px;
     position: absolute;
-    top: 10px;
+    top: 15px;
     right: 20px;
     cursor: pointer;
+    font-family: 'roboto';
+    font-weight: 600;
 }
 
 footer {
