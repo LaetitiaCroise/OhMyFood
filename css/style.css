@@ -302,14 +302,15 @@ h3 {
 .coeur {
     display: flex;
     justify-content: space-between;
+    position: relative;
     
 }
 .coeur .fa-heart{
 font-size: 25px;
-position: relative;}
+position: absolute;
+right:0}
 
 .coeur .fa-heart:hover{
-    position: absolute;
     height: 0;
     right: 0;
     opacity: 0;

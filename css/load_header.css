@@ -12,6 +12,7 @@
 	animation: anmL-loader-circle-18 5s;
 	animation: anmR-loader-circle-18 5s;
 	animation-fill-mode: forwards;
+	position: fixed;
 }
 
 .loader-circle-18 {
@@ -73,6 +74,8 @@
 		transform: scale(1);
 		transform: rotate(0deg);
 		opacity:0;
+	
+		
 	}
 }
 @media screen and (min-width: 992px) {
