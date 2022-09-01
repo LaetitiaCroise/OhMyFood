@@ -173,7 +173,7 @@ h2 {
     padding: 0 20px;
     transform: scale(1);
     transition-property: transform;
-    transition-duration: 400ms;
+    transition: 400ms;
 
 }
 
@@ -309,7 +309,7 @@ position: absolute;
 right:0;
 transform: scale(1);
 transition-property: transform;
-transition-duration: 400ms;
+transition: 400ms;
 }
 .full{
     visibility: hidden;
@@ -436,7 +436,7 @@ footer .titre_footer_OhMyFood {
         flex-direction: column;
         padding: 0 30px;
         transform: scale(1);
-        transition-duration: 400ms;
+        transition: 400ms;
 
     }
 
@@ -498,7 +498,7 @@ footer .titre_footer_OhMyFood {
         flex-direction: row;
         transform: scale(1);
         transition-property: transform;
-        transition-duration: 400ms;
+        transition: 400ms;
 
     }
 

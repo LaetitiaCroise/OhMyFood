@@ -134,7 +134,7 @@ main {
     right:0;
     transform: scale(1);
     transition-property: transform;
-    transition-duration: 400ms;
+    transition: 400ms;
     
   }
   .full{
@@ -174,28 +174,28 @@ main {
     width: 100%;
     min-width: 340px;
   }
+
   .starter .title,
   .plats .title,
   .desserts .title {
     margin-left: 0;
   }
-  .starter .title h2,
-  .plats .title h2,
-  .desserts .title h2 {
+
+
+  .menu_title{
     font-size: 15px;
     font-weight: 400;
     margin-bottom: 5px;
   }
-  .starter .title .underline,
-  .plats .title .underline,
-  .desserts .title .underline {
+  
+  .underline {
     background-color: #99E2D0;
     width: 35px;
     height: 3px;
   }
-  .starter .menus__details,
-  .plats .menus__details,
-  .desserts .menus__details{
+
+.menus__details
+ {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -209,9 +209,8 @@ main {
     cursor: pointer;
     color: black;
 }
-  .starter .menus__details .menus__details__name,
-  .plats .menus__details .menus__details__name,
-  .desserts .menus__details .menus__details__name{
+
+.menus__details__name{
     display: flex;
     position: relative;
     justify-content: center;
@@ -221,9 +220,7 @@ main {
     width: 60%;
     
   }
-  .starter .menus__details .menus__details__name h3,
-  .plats .menus__details .menus__details__name h3,
-  .desserts .menus__details .menus__details__name h3 {
+.nom_du_plat{
     margin: 0;
     padding-right: 0;
     font-size: 16px;
@@ -233,6 +230,7 @@ main {
     width: 98%;
     font-weight: 700;
   }
+  
   .starter .menus__details .menus__details__name p,
   .plats .menus__details .menus__details__name p,
   .desserts .menus__details .menus__details__name p {
@@ -337,6 +335,17 @@ footer .titre_footer_OhMyFood {
 .btn__commande :hover{
   opacity: 0.7;
 }
+.menus__details__slide{
+  /* transform: translateX(0px); */
+  width:0;
+  height:100%;
+  background-color: var(--bluegreen);
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  transition: 400ms ease-in-out;
+  overflow: hidden;
+}
 .fa-circle-check{
   -webkit-animation: rotate-90-cw 0.4s 1s;
 	animation: rotate-90-cw 0.4s 1s;
@@ -344,26 +353,36 @@ footer .titre_footer_OhMyFood {
 .fa-circle-check{
   font-size: 20px;
   color: #fff;
-  padding:27px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 100%;
-}
-.fa-circle-check:hover{
-  width: 100px;
-  height: 100px;
-  background: var(--bluegreen);
-  animation-name: shutter-in-right;
-  animation-duration: 3.2s;
-  animation-timing-function: ease;
-  animation-delay: 0s;
-  animation-iteration-count: 1;
-  animation-direction: normal;
-  animation-fill-mode: none;
 }
 
-@media screen and (min-width: 768px) {
+.menus__details:hover>.menus__details__slide{
+  /* transform: scaleX(-100px); */
+  width:100px;
+  display: flex;
+  background-color: var(--bluegreen);
+  margin-left: 20px;
+  
+}
+.menus__details:hover>.menus__details__name{
+  width: calc(100% -100px);
+  overflow: hidden;
+}
+
+ @keyframes shutter-in-right {
+  0%{
+    transform: rotateY(-100deg);
+    transform-origin: right;
+    opacity: 0;
+  }
+  100%{
+    transform: rotateY(0);
+    transform-origin: right;
+    opacity: 1;
+  }
+} 
+
+
+/* @media screen and (min-width: 768px) {
   .menu {
     display: flex;
     width: 100%;
@@ -463,10 +482,11 @@ footer {
   animation-fill-mode: none;
 }
 
+} */
 
-}
 
-@media screen and (min-width: 992px) {
+
+/* @media screen and (min-width: 992px) {
   .menus {
     width: 100%;
     margin: 0;
@@ -551,17 +571,5 @@ footer {
   animation: shutter-in-right 2.2s ease 0s 1 normal none;
 
    } 
-}
- /* @keyframes shutter-in-right {
-  0%{
-    transform: rotateY(-100deg);
-    transform-origin: right;
-    opacity: 0;
-  }
-  100%{
-    transform: rotateY(0);
-    transform-origin: right;
-    opacity: 1;
-  }
-}  */
+} */
 
