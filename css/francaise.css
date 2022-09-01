@@ -576,6 +576,9 @@ footer {
   cursor: pointer;
   color: black;
 }
+.menus__details__price {
+  margin-left: 140px;
+}
 .fa-circle-check{
   font-size: 20px;
   color: #fff;
@@ -600,4 +603,3 @@ footer {
 
    } 
 }
-
