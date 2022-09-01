@@ -118,7 +118,6 @@ main {
     background-color: #F6F6F6;
     align-items: baseline;
     justify-content: space-between;
-    padding-right: 20px;
   }
   .menu .menu__restaurant h1 {
     font-family: "Shrikhand", cursive;
@@ -127,28 +126,42 @@ main {
   }
   .menu .menu__restaurant .menu__restaurant__like {
     position: relative;
+    font-size: 25px;
   }
 
   .menu .menu__restaurant .heart {
-    position: relative;
-    color: #363636;
-    font-weight: 400;
-    font-size: 2.2rem;
-    cursor: pointer;
-    margin-right: 20px;
-  }
-  .menu .menu__restaurant .heart-full {
     position: absolute;
-    right: 0;
-    top: -1px;
-    background: linear-gradient(to bottom, #9356DC, #FF79DA);
-    background-clip: text;
-    -webkit-background-clip: text;
-    color: transparent;
-    opacity: 0;
+    right:0;
+    transform: scale(1);
+    transition-property: transform;
+    transition-duration: 400ms;
     
-    font-weight: 900;
   }
+  .full{
+    visibility: hidden;
+}
+
+.full:hover,
+.full:active{
+    transform: scale(1.15);
+    opacity: 100%;
+    background-image: linear-gradient(0deg, #ff79da, #9356dc);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;}
+
+.fa-heart:hover,
+.fa-heart:active{
+    opacity: 100%;
+    background: linear-gradient(0deg, #ff79da, #9356dc);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold;
+}
+  
+  
   
   .starter,
   .plats,
@@ -169,15 +182,15 @@ main {
   .starter .title h2,
   .plats .title h2,
   .desserts .title h2 {
-    font-size: 18px;
-    font-weight: 200;
+    font-size: 15px;
+    font-weight: 400;
     margin-bottom: 5px;
   }
   .starter .title .underline,
   .plats .title .underline,
   .desserts .title .underline {
     background-color: #99E2D0;
-    width: 45px;
+    width: 35px;
     height: 3px;
   }
   .starter .menus__details,
@@ -326,7 +339,7 @@ footer .titre_footer_OhMyFood {
 }
 .fa-circle-check{
   -webkit-animation: rotate-90-cw 0.4s 1s;
-	        animation: rotate-90-cw 0.4s 1s;
+	animation: rotate-90-cw 0.4s 1s;
 }
 .fa-circle-check{
   font-size: 20px;
