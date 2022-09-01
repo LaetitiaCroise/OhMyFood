@@ -19,7 +19,7 @@ main {
     padding: 0;
 }
 
-header {
+nav {
     width: 100%;
     display: flex;
     justify-content: space-around;
@@ -177,7 +177,7 @@ h2 {
 
 }
 
-.filtres li {
+.filtres .filtre {
     padding: 10px;
     margin: 0 0 20px 0;
     border-radius: 25px;
@@ -202,17 +202,15 @@ h2 {
     margin: 20px;
 }
 
-.filtre_icone :hover {
+.filtre:hover {
     background-color: rgb(244, 233, 255);
     transform: scale(1.10);
 }
-
-.filtre_icone i:hover,
-.filtre_icone i:active
-{
+.filtre:hover >.icone{
     color: #9356DC;
-
 }
+
+
 
 
 
@@ -458,15 +456,6 @@ footer .titre_footer_OhMyFood {
         margin: 20px;
     }
 
-    .filtre_icone :hover {
-        background-color: rgb(244, 233, 255);
-        transform: scale(1.10);
-    }
-
-    .filtre_icone i:hover {
-        color: #9356DC;
-
-    }
 
     .lien {
         width: 47%;
@@ -526,16 +515,6 @@ footer .titre_footer_OhMyFood {
         max-width: 85%;
         width: 100%;
         padding: 0 20px;
-    }
-
-    .filtre_icone :hover {
-        background-color: rgb(244, 233, 255);
-        transform: scale(1.10);
-    }
-
-    .filtre_icone i:hover {
-        color: #9356DC;
-
     }
 
 
