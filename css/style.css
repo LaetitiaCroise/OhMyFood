@@ -292,21 +292,20 @@ h3 {
     margin: 15px;
 }
 
-.coeur {
-/* .menu__restaurant__like{ */
+/* .coeur { */
+.menu__restaurant__like{
     display: flex;
     justify-content: space-between;
     position: relative;
     
 }
-.coeur .fa-heart{
-/* .menu__restaurant__like .fa-heart{ */
+/* .coeur .fa-heart{ */
+.menu__restaurant__like .fa-heart{
 font-size: 25px;
 position: absolute;
 right:0;
 transform: scale(1);
 transition-property: transform;
-transition: 400ms;
 }
 .full{
     visibility: hidden;
