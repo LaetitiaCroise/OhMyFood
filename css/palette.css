@@ -328,7 +328,7 @@ footer .titre_footer_OhMyFood {
     justify-content: center;
     align-items: center;
     margin-bottom: 60px;
-    box-shadow: 0 0 6px #7A7A7A;
+     box-shadow: 0 6px 6px 0px #aca7a7;
     font-size: 15px;
     font-weight: 500;
     cursor: pointer;
@@ -441,21 +441,22 @@ to {
         
         margin-left: 34px; 
       }
-.btn_order{
-  background: linear-gradient(var(--pink), var(--purple));
-  border: none;
-  border-radius: 30px;
-  padding: 20px 55px 20px 55px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-bottom: 60px;
-  box-shadow: 0 0 6px #7a7a7a;
-  font-size: 15px;
-  font-weight: 500;
-  cursor: pointer;
-  color: white;
-}
+      .btn_order {
+        background: linear-gradient(var(--pink), var(--purple));
+        border: none;
+        border-radius: 30px;
+        padding: 20px 40px 20px 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 60px;
+        box-shadow: 0 6px 6px 0px #aca7a7;
+        font-size: 15px;
+        font-weight: 500;
+        cursor: pointer;
+        color: white;
+        transition: 250ms ease-in-out;
+    }
 .container_box {
   display: flex;
   flex-direction: column;
@@ -528,6 +529,7 @@ footer {
   animation-direction: normal;
   animation-fill-mode: none;
 }
+
 
 } 
 
