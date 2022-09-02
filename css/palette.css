@@ -461,6 +461,8 @@ to {
   flex-direction: column;
   width: 100%;
 }
+.starter .menus__details .menus__details__price, .plats .menus__details .menus__details__price, .desserts .menus__details .menus__details__price {
+  margin-left: 190px;}
 
 .starter .menus__details, .plats .menus__details, .desserts .menus__details {
   display: flex;
