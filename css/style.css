@@ -108,8 +108,8 @@ main {
     padding: 18px 30px 18px 30px;
     text-decoration: none;
     color: #000000;
-    background: linear-gradient(to bottom, #9356DC 5%, #FF79DA 100%);
-    background-color: #9356DC;
+    background: linear-gradient(to bottom, var(--purple) 5%, var(--pink) 100%);
+    background-color: var(--purple);
     border-radius: 28px;
     display: inline-block;
     cursor: pointer;
@@ -138,7 +138,7 @@ main {
     position: relative;
     border-radius: 100%;
     font-size: 18px;
-    background-color: #9356DC;
+    background-color: var(--purple);
     color: #ffffff;
     width: 25px;
     margin-left: -12px;
@@ -205,7 +205,7 @@ h2 {
     transform: scale(1.10);
 }
 .filtre:hover >.icone{
-    color: #9356DC;
+    color: var(--purple);
 }
 
 
@@ -315,7 +315,7 @@ transition-property: transform;
 .full:active{
     transform: scale(1.15);
     opacity: 100%;
-    background-image: linear-gradient(0deg, #ff79da, #9356dc);
+    background-image: linear-gradient(0deg, var(--pink), var(--purple));
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -325,7 +325,7 @@ transition-property: transform;
 .fa-heart:hover,
 .fa-heart:active{
     opacity: 100%;
-    background: linear-gradient(0deg, #ff79da, #9356dc);
+    background: linear-gradient(0deg, var(--pink), var(--purple));
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -337,7 +337,7 @@ transition-property: transform;
     display: flex;
     font-weight: 700;
     padding: 10px 15px;
-    background-color: #99E2D0;
+    background-color: var(--bluegreen);
     color: #2c9c81;
     border-radius: 3px;
     position: absolute;
