@@ -457,6 +457,7 @@ footer .titre_footer_OhMyFood {
 
   .menus {
     width: 95%;
+    margin: 0 20px;
   }
 
   .img1 {
@@ -464,10 +465,6 @@ footer .titre_footer_OhMyFood {
     margin-left: 0;
   }
 
-  .title_level_1 {
-
-    margin-left: 34px;
-  }
 
   .btn_order {
     background: linear-gradient(var(--pink), var(--purple));
@@ -540,7 +537,6 @@ footer .titre_footer_OhMyFood {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    margin: 0 20px 20px 20px;
     width: 100%;
     min-width: 340px;
 

@@ -486,6 +486,11 @@ footer .titre_footer_OhMyFood {
 }
 
 @media screen and (min-width: 992px) {
+
+   .menu__restaurant .title_level_1{
+        margin-left: 34px;
+    }
+
     .second_header a:hover {
         opacity: 0.7;
         box-shadow: 0 6px 6px 0px #908989;
