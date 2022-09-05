@@ -587,6 +587,9 @@ footer .titre_footer_OhMyFood {
     background-color: #F6F6F6;
     flex-direction: row;
   }
+  .title_level_1{
+    padding-left: 20px;
+  }
 
   .btn__container {
     width: 100%;
