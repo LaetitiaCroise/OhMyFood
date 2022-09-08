@@ -500,12 +500,6 @@ footer .titre_footer_OhMyFood {
     width: 100%;
   }
 
-  .starter .menus__details .menus__details__price,
-  .plats .menus__details .menus__details__price,
-  .desserts .menus__details .menus__details__price {
-    margin-left: 185px;
-  }
-
   .starter .menus__details,
   .plats .menus__details,
   .desserts .menus__details {
